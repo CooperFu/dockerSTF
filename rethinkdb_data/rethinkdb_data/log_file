@@ -1,0 +1,214 @@
+2020-01-20T17:17:50.173774100 0.013493s notice: Recursively removing directory /data/rethinkdb_data/tmp
+2020-01-20T17:17:50.180685500 0.020409s notice: Initializing directory /data/rethinkdb_data
+2020-01-20T17:17:50.181142000 0.020860s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/data/rethinkdb_data' did not already exist or is empty.)
+2020-01-20T17:17:50.181446200 0.021164s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-20T17:17:50.185811800 0.025533s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-20T17:17:50.186292500 0.026012s notice: Loading data from directory /data/rethinkdb_data
+2020-01-20T17:17:50.234082000 0.073801s info: Cache size is set to 2048 MB
+2020-01-20T17:17:50.234543200 0.074261s warn: Cache size is larger than available memory.
+2020-01-20T17:17:50.237381900 0.077099s notice: Listening for intracluster connections on port 29015
+2020-01-20T17:17:50.239997900 0.079716s notice: Listening for client driver connections on port 28015
+2020-01-20T17:17:50.240436100 0.080158s notice: Listening for administrative HTTP connections on port 8080
+2020-01-20T17:17:50.240465200 0.080183s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-20T17:17:50.240485400 0.080203s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-20T17:17:50.240510200 0.080228s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-20T17:17:50.240533500 0.080251s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-20T17:17:50.240556600 0.080274s notice: Server ready, "docker_desktop_z40" e47603c4-5258-4da5-bf3d-3f2c93fcd38a
+2020-01-20T17:17:54.185856200 4.025574s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Starting a new Raft election for term 1.
+2020-01-20T17:17:54.187028100 4.026746s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Added replica on this server.
+2020-01-20T17:17:54.187150800 4.026869s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Starting a new Raft election for term 1.
+2020-01-20T17:17:54.189923400 4.029641s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Added replica on this server.
+2020-01-20T17:17:54.190300200 4.030018s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Starting a new Raft election for term 1.
+2020-01-20T17:17:54.190501100 4.030221s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Added replica on this server.
+2020-01-20T17:17:54.194045500 4.033763s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: This server is Raft leader for term 1. Latest log index is 0.
+2020-01-20T17:17:54.194189600 4.033907s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: This server is Raft leader for term 1. Latest log index is 0.
+2020-01-20T17:17:54.195005000 4.034723s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: This server is Raft leader for term 1. Latest log index is 0.
+2020-01-20T17:17:54.254422700 4.094140s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Starting a new Raft election for term 1.
+2020-01-20T17:17:54.257567300 4.097286s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Added replica on this server.
+2020-01-20T17:17:54.257813200 4.097531s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: Starting a new Raft election for term 1.
+2020-01-20T17:17:54.258460800 4.098179s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: Added replica on this server.
+2020-01-20T17:17:54.261671300 4.101389s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: This server is Raft leader for term 1. Latest log index is 0.
+2020-01-20T17:17:54.261843600 4.101561s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: This server is Raft leader for term 1. Latest log index is 0.
+2020-01-20T17:17:54.461294100 4.301012s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Configuration is changing.
+2020-01-20T17:17:54.463696100 4.303414s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T17:17:54.470320400 4.310038s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T17:17:54.470698100 4.310417s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Configuration is changing.
+2020-01-20T17:17:54.752150500 4.591870s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T17:17:54.752346100 4.592068s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T17:17:54.753624600 4.593342s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:19:36.120415800 3710.364780s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-20T18:19:36.120718200 3710.365081s notice: Shutting down client connections...
+2020-01-20T18:19:36.133179600 3710.377543s notice: All client connections closed.
+2020-01-20T18:19:36.133296500 3710.377659s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-20T18:19:36.197283200 3710.441646s notice: Storage engine shut down.
+2020-01-20T18:19:50.462847700 0.019814s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-20T18:19:50.472131300 0.029100s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-20T18:19:50.472705500 0.029666s notice: Loading data from directory /data/rethinkdb_data
+2020-01-20T18:19:50.515245000 0.072207s info: Cache size is set to 2048 MB
+2020-01-20T18:19:50.515531400 0.072491s warn: Cache size is larger than available memory.
+2020-01-20T18:19:50.518980500 0.075940s notice: Listening for intracluster connections on port 29015
+2020-01-20T18:19:50.747249900 0.304210s notice: Listening for client driver connections on port 28015
+2020-01-20T18:19:50.747710300 0.304677s notice: Listening for administrative HTTP connections on port 8080
+2020-01-20T18:19:50.747738400 0.304698s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-20T18:19:50.747754800 0.304714s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-20T18:19:50.747770800 0.304731s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-20T18:19:50.747791100 0.304750s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-20T18:19:50.747854900 0.305013s notice: Server ready, "docker_desktop_z40" e47603c4-5258-4da5-bf3d-3f2c93fcd38a
+2020-01-20T18:19:51.679533700 1.236498s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Starting a new Raft election for term 2.
+2020-01-20T18:19:51.681568800 1.238533s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: This server is Raft leader for term 2. Latest log index is 4.
+2020-01-20T18:19:51.691230800 1.248198s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: Starting a new Raft election for term 2.
+2020-01-20T18:19:51.693774400 1.250742s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: This server is Raft leader for term 2. Latest log index is 3.
+2020-01-20T18:19:51.870001700 1.426969s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Starting a new Raft election for term 2.
+2020-01-20T18:19:51.872685000 1.429652s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: This server is Raft leader for term 2. Latest log index is 6.
+2020-01-20T18:19:52.406593800 1.963561s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Starting a new Raft election for term 2.
+2020-01-20T18:19:52.411877500 1.968842s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: This server is Raft leader for term 2. Latest log index is 4.
+2020-01-20T18:19:52.532395400 2.089364s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Starting a new Raft election for term 2.
+2020-01-20T18:19:52.537657000 2.094625s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: This server is Raft leader for term 2. Latest log index is 5.
+2020-01-20T18:19:54.400417300 3.957378s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Configuration is changing.
+2020-01-20T18:19:54.402378400 3.959338s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Configuration is changing.
+2020-01-20T18:19:54.402493900 3.959454s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T18:19:54.402511900 3.959471s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T18:19:54.402526800 3.959486s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:19:54.402547300 3.959508s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:19:54.402774400 3.959735s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:40:49.279004500 1260.340000s warn: Some RethinkDB data on this server has been placed into swap memory. This may impact performance.
+2020-01-20T18:49:21.954308700 1773.622777s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-20T18:49:21.954583200 1773.623051s notice: Shutting down client connections...
+2020-01-20T18:49:21.964030200 1773.632498s notice: All client connections closed.
+2020-01-20T18:49:21.964137500 1773.632608s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-20T18:49:22.008976000 1773.677575s notice: Storage engine shut down.
+2020-01-20T18:49:38.394983900 0.017462s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-20T18:49:38.400548600 0.023023s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-20T18:49:38.401216300 0.023688s notice: Loading data from directory /data/rethinkdb_data
+2020-01-20T18:49:38.436148400 0.058624s info: Cache size is set to 2048 MB
+2020-01-20T18:49:38.436557800 0.059031s warn: Cache size is larger than available memory.
+2020-01-20T18:49:38.439891600 0.062364s notice: Listening for intracluster connections on port 29015
+2020-01-20T18:49:38.703940300 0.326413s notice: Listening for client driver connections on port 28015
+2020-01-20T18:49:38.704390300 0.326864s notice: Listening for administrative HTTP connections on port 8080
+2020-01-20T18:49:38.704413000 0.326884s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-20T18:49:38.704432700 0.326904s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-20T18:49:38.704477500 0.326949s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-20T18:49:38.704498000 0.326970s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-20T18:49:38.704518500 0.326990s notice: Server ready, "docker_desktop_z40" e47603c4-5258-4da5-bf3d-3f2c93fcd38a
+2020-01-20T18:49:39.689303700 1.311784s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Starting a new Raft election for term 3.
+2020-01-20T18:49:39.693526800 1.316006s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: This server is Raft leader for term 3. Latest log index is 8.
+2020-01-20T18:49:39.908817100 1.531292s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Starting a new Raft election for term 3.
+2020-01-20T18:49:39.913853500 1.536327s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: This server is Raft leader for term 3. Latest log index is 7.
+2020-01-20T18:49:39.974910200 1.597390s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Starting a new Raft election for term 3.
+2020-01-20T18:49:39.979043700 1.601523s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: This server is Raft leader for term 3. Latest log index is 7.
+2020-01-20T18:49:40.571085500 2.193565s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Starting a new Raft election for term 3.
+2020-01-20T18:49:40.573585000 2.196064s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: This server is Raft leader for term 3. Latest log index is 9.
+2020-01-20T18:49:40.586953200 2.209433s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: Starting a new Raft election for term 3.
+2020-01-20T18:49:40.589066000 2.211546s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: This server is Raft leader for term 3. Latest log index is 6.
+2020-01-20T18:49:42.498325100 4.120798s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Configuration is changing.
+2020-01-20T18:49:42.500789100 4.123262s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Configuration is changing.
+2020-01-20T18:49:42.503589500 4.126062s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T18:49:42.505612500 4.128085s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T18:49:42.508518500 4.130991s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:49:42.509124300 4.131599s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:49:42.510771400 4.133244s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:56:05.605322000 387.693222s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-20T18:56:05.605502400 387.693423s notice: Shutting down client connections...
+2020-01-20T18:56:05.605712800 387.693613s notice: All client connections closed.
+2020-01-20T18:56:05.605733000 387.693633s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-20T18:56:05.637417300 387.725318s notice: Storage engine shut down.
+2020-01-20T18:56:19.943211700 0.024692s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-20T18:56:19.948990300 0.030467s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-20T18:56:19.949416500 0.030890s notice: Loading data from directory /data/rethinkdb_data
+2020-01-20T18:56:19.984804200 0.066281s info: Cache size is set to 2048 MB
+2020-01-20T18:56:19.985320500 0.066793s warn: Cache size is larger than available memory.
+2020-01-20T18:56:19.987841800 0.069316s notice: Listening for intracluster connections on port 29015
+2020-01-20T18:56:20.212222300 0.293697s notice: Listening for client driver connections on port 28015
+2020-01-20T18:56:20.212313300 0.293787s notice: Listening for administrative HTTP connections on port 8080
+2020-01-20T18:56:20.212333800 0.293807s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-20T18:56:20.212349900 0.293823s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-20T18:56:20.212369300 0.293843s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-20T18:56:20.212388800 0.293862s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-20T18:56:20.212408300 0.293881s notice: Server ready, "docker_desktop_z40" e47603c4-5258-4da5-bf3d-3f2c93fcd38a
+2020-01-20T18:56:21.178939900 1.260421s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: Starting a new Raft election for term 4.
+2020-01-20T18:56:21.183856600 1.265338s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: This server is Raft leader for term 4. Latest log index is 9.
+2020-01-20T18:56:21.510467300 1.591948s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Starting a new Raft election for term 4.
+2020-01-20T18:56:21.515597900 1.597078s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: This server is Raft leader for term 4. Latest log index is 10.
+2020-01-20T18:56:21.639810400 1.721291s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Starting a new Raft election for term 4.
+2020-01-20T18:56:21.642763500 1.724245s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: This server is Raft leader for term 4. Latest log index is 12.
+2020-01-20T18:56:22.033423600 2.114905s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Starting a new Raft election for term 4.
+2020-01-20T18:56:22.038289700 2.119771s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: This server is Raft leader for term 4. Latest log index is 11.
+2020-01-20T18:56:22.048489000 2.129970s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Starting a new Raft election for term 4.
+2020-01-20T18:56:22.050953100 2.132434s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: This server is Raft leader for term 4. Latest log index is 10.
+2020-01-20T18:56:24.258895500 4.340370s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Configuration is changing.
+2020-01-20T18:56:24.261081100 4.342555s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Configuration is changing.
+2020-01-20T18:56:24.262133100 4.343606s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T18:56:24.262757600 4.344231s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T18:56:24.265512200 4.346986s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:56:24.265563800 4.347038s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T18:56:24.268055100 4.349529s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T19:00:53.130020600 273.533729s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-20T19:00:53.130284100 273.533991s notice: Shutting down client connections...
+2020-01-20T19:00:53.148131200 273.551840s notice: All client connections closed.
+2020-01-20T19:00:53.148177900 273.551886s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-20T19:00:53.271372300 273.675081s notice: Storage engine shut down.
+2020-01-20T19:01:07.586249400 0.013932s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-20T19:01:07.590538900 0.018218s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-20T19:01:07.591027000 0.018704s notice: Loading data from directory /data/rethinkdb_data
+2020-01-20T19:01:07.628984800 0.056662s info: Cache size is set to 2048 MB
+2020-01-20T19:01:07.629311300 0.056988s warn: Cache size is larger than available memory.
+2020-01-20T19:01:07.631701000 0.059377s notice: Listening for intracluster connections on port 29015
+2020-01-20T19:01:07.889563200 0.317240s notice: Listening for client driver connections on port 28015
+2020-01-20T19:01:07.889724600 0.317400s notice: Listening for administrative HTTP connections on port 8080
+2020-01-20T19:01:07.889743500 0.317419s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-20T19:01:07.889762700 0.317439s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-20T19:01:07.889777700 0.317453s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-20T19:01:07.889833600 0.317510s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-20T19:01:07.889855500 0.317531s notice: Server ready, "docker_desktop_z40" e47603c4-5258-4da5-bf3d-3f2c93fcd38a
+2020-01-20T19:01:09.033682000 1.461366s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Starting a new Raft election for term 5.
+2020-01-20T19:01:09.038325000 1.466005s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: This server is Raft leader for term 5. Latest log index is 14.
+2020-01-20T19:01:09.248358100 1.676038s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: Starting a new Raft election for term 5.
+2020-01-20T19:01:09.251691600 1.679372s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: This server is Raft leader for term 5. Latest log index is 12.
+2020-01-20T19:01:09.266229800 1.693905s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Starting a new Raft election for term 5.
+2020-01-20T19:01:09.267426900 1.695104s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: This server is Raft leader for term 5. Latest log index is 15.
+2020-01-20T19:01:09.518479300 1.946163s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Starting a new Raft election for term 5.
+2020-01-20T19:01:09.521249300 1.948933s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: This server is Raft leader for term 5. Latest log index is 13.
+2020-01-20T19:01:09.578435000 2.006119s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Starting a new Raft election for term 5.
+2020-01-20T19:01:09.582831400 2.010512s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: This server is Raft leader for term 5. Latest log index is 13.
+2020-01-20T19:01:11.634393000 4.062070s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Configuration is changing.
+2020-01-20T19:01:11.634445100 4.062121s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Configuration is changing.
+2020-01-20T19:01:11.635345700 4.063022s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T19:01:11.635362800 4.063038s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T19:01:11.636244900 4.063921s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T19:01:11.636268000 4.063944s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T19:01:11.636532300 4.064209s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T19:23:09.591538000 1323.593761s notice: Server got SIGTERM from pid 0, uid 0; shutting down...
+2020-01-20T19:23:09.591872600 1323.594091s notice: Shutting down client connections...
+2020-01-20T19:23:09.592291000 1323.594511s notice: All client connections closed.
+2020-01-20T19:23:09.592322400 1323.594542s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2020-01-20T19:23:09.652202100 1323.654419s notice: Storage engine shut down.
+2020-01-20T20:12:26.480582200 0.030289s notice: Running rethinkdb 2.3.7~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2020-01-20T20:12:26.488428200 0.038131s notice: Running on Linux 4.9.184-linuxkit x86_64
+2020-01-20T20:12:26.489041300 0.038751s notice: Loading data from directory /data/rethinkdb_data
+2020-01-20T20:12:26.534006700 0.083710s info: Cache size is set to 2048 MB
+2020-01-20T20:12:26.535547700 0.085248s warn: Cache size is larger than available memory.
+2020-01-20T20:12:26.542048700 0.091749s notice: Listening for intracluster connections on port 29015
+2020-01-20T20:12:26.824923300 0.374624s notice: Listening for client driver connections on port 28015
+2020-01-20T20:12:26.825135300 0.374836s notice: Listening for administrative HTTP connections on port 8080
+2020-01-20T20:12:26.825155100 0.374855s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2020-01-20T20:12:26.825403000 0.375104s notice: Listening on driver addresses: 127.0.0.1, ::1
+2020-01-20T20:12:26.825428000 0.375128s notice: Listening on http addresses: 127.0.0.1, ::1
+2020-01-20T20:12:26.825447400 0.375147s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2020-01-20T20:12:26.825466600 0.375166s notice: Server ready, "docker_desktop_z40" e47603c4-5258-4da5-bf3d-3f2c93fcd38a
+2020-01-20T20:12:27.794588100 1.344296s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Starting a new Raft election for term 6.
+2020-01-20T20:12:27.797144200 1.346852s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: This server is Raft leader for term 6. Latest log index is 16.
+2020-01-20T20:12:28.034435200 1.584143s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Starting a new Raft election for term 6.
+2020-01-20T20:12:28.037201300 1.586905s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: This server is Raft leader for term 6. Latest log index is 16.
+2020-01-20T20:12:28.134214700 1.683922s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: Starting a new Raft election for term 6.
+2020-01-20T20:12:28.137310800 1.687018s info: Table b05899a1-10d2-45b4-bfe7-6207d48dbd6f: This server is Raft leader for term 6. Latest log index is 15.
+2020-01-20T20:12:28.286561500 1.836269s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Starting a new Raft election for term 6.
+2020-01-20T20:12:28.289135300 1.838843s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: This server is Raft leader for term 6. Latest log index is 18.
+2020-01-20T20:12:28.622186100 2.171894s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Starting a new Raft election for term 6.
+2020-01-20T20:12:28.624292100 2.173999s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: This server is Raft leader for term 6. Latest log index is 17.
+2020-01-20T20:12:30.264986300 3.814686s info: Table 2f1108c1-15c8-42ca-ad47-d05240b1a78d: Configuration is changing.
+2020-01-20T20:12:30.265035700 3.814735s info: Table 75535620-08c7-4aac-8285-a802deefe1a6: Configuration is changing.
+2020-01-20T20:12:30.265058900 3.814759s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T20:12:30.265082900 3.814783s info: Table 4175be43-8131-403d-a06a-6a85e23e635d: Configuration is changing.
+2020-01-20T20:12:30.270887000 3.820589s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T20:12:30.270914600 3.820615s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.
+2020-01-20T20:12:30.270938600 3.820638s info: Table ffd9a9df-6767-4c2c-a680-5669e14b4c6e: Configuration is changing.

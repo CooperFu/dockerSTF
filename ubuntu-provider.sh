@@ -23,7 +23,7 @@ else
 fi
 
 echo "拉取必要的image"
-docker pull openstf/stf:latest
+docker pull cooperfu/stf:v7
 docker pull sorccu/adb:latest
 
 

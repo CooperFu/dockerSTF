@@ -26,7 +26,7 @@ echo "启动 docker"
 service docker start
 
 echo "拉取image"
-docker pull openstf/stf:latest
+docker pull cooperfu/stf:v7
 docker pull rethinkdb:2.3
 docker pull nginx:1.7.10
 
@@ -60,48 +60,48 @@ sleep 3
 
 # 初始化数据表,只需要执行一次
 echo "rethinkdb init"
-docker run --rm --name stf-migrate --net host openstf/stf:latest stf migrate
+docker run --rm --name stf-migrate --net host cooperfu/stf:v7 stf migrate
 sleep 3
 
 echo "启动 stf app"
-docker run -d --name stf-app --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" openstf/stf:latest stf app --port 7100 --auth-url http://${hostname}/auth/mock/ --websocket-url ws://${hostname}/
+docker run -d --name stf-app --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" cooperfu/stf:v7 stf app --port 7100 --auth-url http://${hostname}/auth/mock/ --websocket-url ws://${hostname}/
 sleep 3
 
 echo "启动 stf auth-mock"
-docker run -d --name stf-auth --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" openstf/stf:latest stf auth-mock --port 7101 --app-url http://${hostname}/
+docker run -d --name stf-auth --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" cooperfu/stf:v7 stf auth-mock --port 7101 --app-url http://${hostname}/
 sleep 1
 
 echo "启动 stf websocket"
-docker run -d --name websocket --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" openstf/stf:latest stf websocket --port 7102 --storage-url http://${hostname}/ --connect-sub tcp://127.0.0.1:7150 --connect-push tcp://127.0.0.1:7170
+docker run -d --name websocket --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" cooperfu/stf:v7 stf websocket --port 7102 --storage-url http://${hostname}/ --connect-sub tcp://127.0.0.1:7150 --connect-push tcp://127.0.0.1:7170
 sleep 1
 
 echo "启动 stf api"
-docker run -d --name stf-api --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" openstf/stf:latest stf api --port 7103 --connect-sub tcp://127.0.0.1:7150 --connect-push tcp://127.0.0.1:7170
+docker run -d --name stf-api --net host -e "SECRET=YOUR_SESSION_SECRET_HERE" cooperfu/stf:v7 stf api --port 7103 --connect-sub tcp://127.0.0.1:7150 --connect-push tcp://127.0.0.1:7170
 sleep 1
 
 echo "启动 stf storage-plugin-apk"
-docker run -d --name storage-apk --net host openstf/stf:latest stf storage-plugin-apk --port 7104 --storage-url http://${hostname}/
+docker run -d --name storage-apk --net host cooperfu/stf:v7 stf storage-plugin-apk --port 7104 --storage-url http://${hostname}/
 sleep 1
 
 echo "启动 stf storage-plugin-image"
-docker run -d --name storage-image --net host openstf/stf:latest stf storage-plugin-image --port 7105 --storage-url http://${hostname}/
+docker run -d --name storage-image --net host cooperfu/stf:v7 stf storage-plugin-image --port 7105 --storage-url http://${hostname}/
 sleep 1
 
 echo "启动 stf storage-temp"
-docker run -d --name storage-temp --net host -v "${workdir}/storage:/data" openstf/stf:latest stf storage-temp --port 7106 --save-dir /data
+docker run -d --name storage-temp --net host -v "${workdir}/storage:/data" cooperfu/stf:v7 stf storage-temp --port 7106 --save-dir /data
 sleep 1
 
 echo "启动 stf triproxy app"
-docker run -d --name triproxy-app --net host openstf/stf:latest stf triproxy app --bind-pub "tcp://*:7150" --bind-dealer "tcp://*:7160" --bind-pull "tcp://*:7170"
+docker run -d --name triproxy-app --net host cooperfu/stf:v7 stf triproxy app --bind-pub "tcp://*:7150" --bind-dealer "tcp://*:7160" --bind-pull "tcp://*:7170"
 sleep 1
 
 echo "启动 stf processor"
-docker run -d --name stf-processer --net host openstf/stf:latest stf processor stf-processer --connect-app-dealer tcp://127.0.0.1:7160 --connect-dev-dealer tcp://127.0.0.1:7260
+docker run -d --name stf-processer --net host cooperfu/stf:v7 stf processor stf-processer --connect-app-dealer tcp://127.0.0.1:7160 --connect-dev-dealer tcp://127.0.0.1:7260
 sleep 1
 
 echo "启动 stf triproxy dev"
-docker run -d --name triproxy-dev --net host openstf/stf:latest stf triproxy dev --bind-pub "tcp://*:7250" --bind-dealer "tcp://*:7260" --bind-pull "tcp://*:7270"
+docker run -d --name triproxy-dev --net host cooperfu/stf:v7 stf triproxy dev --bind-pub "tcp://*:7250" --bind-dealer "tcp://*:7260" --bind-pull "tcp://*:7270"
 sleep 1
 
 echo "启动 stf reaper dev"
-docker run -d --name stf-reaper --net host openstf/stf:latest stf reaper dev --connect-push tcp://127.0.0.1:7270 --connect-sub tcp://127.0.0.1:7150 --heartbeat-timeout 30000
+docker run -d --name stf-reaper --net host cooperfu/stf:v7 stf reaper dev --connect-push tcp://127.0.0.1:7270 --connect-sub tcp://127.0.0.1:7150 --heartbeat-timeout 30000
